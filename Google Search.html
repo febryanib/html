@@ -5,18 +5,25 @@
         <link rel="stylesheet" href="external css.css">
     </head>
     <body>
-        <a href="Google Image Search.html" class="Image-Search">
-                Images
-        </a>
-            <img  class="img-container" src="google logo.png" 
-            alt="Google Logo" title="Google Search">
-        <form method="get" action="https://www.google.com/search">
-        <div class="wrapper">
-            <img class="search-icon" src="loupe.png">
-            <input placeholder="Search" type="text" name="q" class="search">
-            <!--img class="clear-icon" src="cancel.png"-->
-            <input type="submit" value="Google Search" class="googlebutton">
+        <div style="height:100px"></div>
+        <div class="logo">
+            <div style="flex-grow: 1;"></div>
+            <div>
+                <a href="https://google.com">
+                    <img class="img-container" src="google logo.png" alt="Google Images" title="Google Images">
+                </a>
+            </div>
+            <div style="flex-grow: 1"></div>
         </div>
+        <form method="get" action="https://www.google.com/search">
+            <div class="wrapper">
+                <div style="position: absolute; display:flex; align-self:center;">
+                    <img class="search-icon" src="loupe.png">
+                    <input placeholder="Search" type="text" name="q" class="search">
+                </div>
+                <!--img class="clear-icon" src="cancel.png"-->
+                <input type="submit" value="Google Search" class="googlebutton">
+            </div>
         </form>
     </body>
 </html>
