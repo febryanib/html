@@ -52,11 +52,18 @@
     align-self: center;
 }
 .googlebutton{
-    background-color:white;
-    color:black;
+    background-color:#e7e7e7;
+    border:1px rgb(187, 187, 187);
     padding:10px 30px 10px 30px;
-    border: 2px solid #e7e7e7;
     border-radius:10px;
     margin-top: 48px;
-    align-self: center;
+    text-align: center;
+}
+#button1, #button2{
+    display:inline-block;
+    position:relative;
+}
+#button1:hover, #button1:focus, #button2:hover, #button2:focus{
+    border:1px solid rgb(187, 187, 187);
+    background-color: #e7e7e7;
 }

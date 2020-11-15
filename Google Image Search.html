@@ -3,6 +3,10 @@
     <head>
         <title>Search</title>
         <link rel="stylesheet" href="external css.css">
+        <style>
+            body{
+                font-family:Arial, sans-serif;
+            }
         </style>
     </head>
     <body>
@@ -26,8 +30,11 @@
                     <input placeholder="Search" type="text" name="q" class="search">
                 </div>
                 <!--img class="clear-icon" src="cancel.png"-->
-                <input type="submit" value="Google Search" class="googlebutton">
             </div>
+            <input type="submit" value="Google Search" class="googlebutton" id="button1">
+            <form method="get" action="https://www.google.com/doodles">
+                <input type="submit" value="I'm Feeling Lucky" class="googlebutton" id="button2">
+            </form>
         </form>
     </body>
 </html>
